@@ -2,11 +2,11 @@
 import Image from "next/image";
 
 const stats = [
-  { value: "25%", line1: "faster", line2: "contract cycles" },
-  { value: "1.4M", line1: "contracts", line2: "managed" },
-  { value: "90%", line1: "workflow", line2: "automation" },
-  { value: "17K", line1: "users", line2: "across business" },
-  { value: "360°", line1: "contract", line2: "visibility" },
+  { value: "60K+", line1: "Accenture users on ", line2: "Icertis" },
+  { value: "150K+", line1: "Contracts", line2: "managed per year" },
+  { value: "45", line1: "Countries", line2: "worldwide" },
+  { value: "95%", line1: "Non-Accenture ", line2: "contract templates" },
+  { value: "100K+", line1: "Sales contracts ", line2: "managed per year" },
 ];
 
 export default function CustomerSection() {
@@ -61,6 +61,25 @@ export default function CustomerSection() {
 
           </div>
         </div>
+        <div>
+            <h2 className="font-display mb-4 mt-8 max-w-3xl text-3xl leading-tight sm:mb-10 sm:text-4xl lg:mb-12 lg:mt-20 lg:text-5xl">
+            Accenture&apos;s {" "}
+            <span className="text-[#994353]">
+              Journey
+            </span>
+          </h2>
+          <Image
+          alt="Accenture and Icertis partnership: Powering Enterprise Reinvention Through AI-Driven Contract Intelligence"
+          src="/images/f2.svg"
+          width={1186}
+          height={194}
+          sizes="(min-width: 1280px) 1140px, 90vw"
+          className="fill"
+
+          />
+            </div>    
+
+
       </div>
     </section>
   );

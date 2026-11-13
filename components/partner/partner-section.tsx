@@ -35,7 +35,7 @@ export function PartnerSection() {
               </div>
             ))}
           </dl>
-          <div className="mt-10 flex flex-col items-stretch gap-5 sm:flex-row sm:flex-wrap min-[1440px]:mt-[60px] min-[1440px]:flex-nowrap">
+          <div className="mt-10 flex flex-col items-stretch gap-13 sm:flex-row sm:flex-wrap min-[1440px]:mt-[60px] min-[1440px]:flex-nowrap">
             <a className="inline-flex h-12 w-full items-center justify-center rounded-lg bg-[#24150f] text-base font-semibold whitespace-nowrap text-white transition-colors hover:bg-[#45302a] focus-visible:outline-2 focus-visible:outline-offset-5 focus-visible:outline-[#874451] sm:w-48" href="https://www.icertis.com/request-a-demo/">
               Request Demo
             </a>
@@ -55,13 +55,14 @@ export function PartnerSection() {
         />
       </section>
       <section className="relative flex h-[110px] items-center overflow-hidden bg-[#ebece7] sm:h-40 lg:block lg:h-[200px]" aria-label="Our partners">
+        <div className="flex justify-center mt-9 "><p className= "  font-display text-sm "> Trusted by leading global enterprises · 50+ joint customers</p></div>
         <Image
           src="/images/logos.svg"
           alt="Icertis partner logos"
           width={1140}
           height={80}
           sizes="(min-width: 1280px) 1140px, 90vw"
-          className="relative mx-auto h-auto w-[calc(100%-40px)] object-contain sm:w-[min(1140px,calc(100%-80px))] lg:top-[82px] min-[1440px]:h-20 min-[1440px]:w-[1140px]"
+          className="relative mx-auto h-auto w-[calc(100%-40px)] object-contain sm:w-[min(1140px,calc(100%-80px))]  min-[1440px]:h-20 min-[1440px]:w-[1140px]"
         />
       </section>
     </>
