@@ -168,7 +168,7 @@ export default function Navbar() {
  
           <div className="relative aspect-[150/45] w-25 shrink-0">
             <Image
-              src="/hero1/Icertislogo.svg"
+              src="/images/IcertisLogo.svg"
               alt="Icertis Logo"
               fill
               className="object-contain"
